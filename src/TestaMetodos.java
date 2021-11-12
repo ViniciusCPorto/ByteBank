@@ -20,5 +20,8 @@ public class TestaMetodos {
         }
             System.out.println(contaDaIsabela.saldo);
             System.out.println(contaDoVinicius.saldo);
+
+            contaDoVinicius.titular = "Vinicius Porto";
+            System.out.println(contaDoVinicius.titular);
     }
 }

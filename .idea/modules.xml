@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/bytebank.iml" filepath="$PROJECT_DIR$/bytebank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bytebank-composto/bytebank-composto.iml" filepath="$PROJECT_DIR$/bytebank-composto/bytebank-composto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bytebank-encapsulado/bytebank-encapsulado.iml" filepath="$PROJECT_DIR$/bytebank-encapsulado/bytebank-encapsulado.iml" />
     </modules>
   </component>
 </project>
