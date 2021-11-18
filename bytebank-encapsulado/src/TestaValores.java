@@ -1,12 +1,15 @@
 public class TestaValores {
     public static void main(String[] args) {
-        Conta conta = new Conta();
+        Conta conta = new Conta(1337, 24226);
 
+        System.out.println(conta.getAgencia());
 
-        // conta está inconsistente
-        conta.setAgencia(-50);
-        conta.setNumero(-330);
+        conta.setAgencia(123123);
 
+        Conta conta2 = new Conta(1337,16549);
+        Conta conta3 = new Conta(13347,16649);
+
+        System.out.println(Conta.getTotal());
 
     }
 
